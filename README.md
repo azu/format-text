@@ -1,17 +1,19 @@
-## format-text
+## @azu/format-text
 
 String formatting library inspired from Python
+
+Fork of [azer/format-text](https://github.com/azer/format-text "azer/format-text: String formatting library inspired from Python")
 
 ### Install
 
 ```bash
-$ npm install new-format
+$ npm install @azu/format-text
 ```
 
 ### Usage
 
 ```js
-format = require('format-text')
+format = require('@azu/format-text')
 
 format('Hello {0}. The weather is currently {1}°.', 'Kitty', '67')
 // => Hello Kitty. The weather is currently 67°.
@@ -19,5 +21,3 @@ format('Hello {0}. The weather is currently {1}°.', 'Kitty', '67')
 format('Hello {name}, The weather is currently {degree}°', { name:'Kitty', degree: 67 })
 // => Hello Kitty. The weather is currently 67°.
 ```
-
-![](https://dl.dropbox.com/s/9q2p5mrqnajys22/npmel.jpg?token_hash=AAHqttN9DiGl63ma8KRw-G0cdalaiMzrvrOPGnOfDslDjw)

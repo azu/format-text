@@ -1,6 +1,6 @@
 {
-  "name": "format-text",
-  "version": "0.0.3",
+  "name": "@azu/format-text",
+  "version": "1.0.0",
   "description": "String formatting library inspired from Python",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,12 @@
     "prova": "*"
   },
   "repository": {
-    "url": "git@github.com:azer/format-text.git",
+    "url": "git@github.com:azu/format-text.git",
     "type": "git"
   },
-  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "author": [
+    "Azer Koçulu <azer@kodfabrik.com>",
+    "azu"
+  ],
   "license": "BSD"
 }
