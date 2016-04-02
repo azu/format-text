@@ -4,10 +4,10 @@
   "description": "String formatting library inspired from Python",
   "main": "index.js",
   "scripts": {
-    "test": "prova"
+    "test": "mocha test.js"
   },
   "devDependencies": {
-    "prova": "*"
+    "mocha": "^2.4.5"
   },
   "repository": {
     "url": "git@github.com:azu/format-text.git",
